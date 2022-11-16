@@ -103,7 +103,7 @@ textarea {
     align-items: center;
     width: 100%;
     min-height: 75vh;
-    background: #ecf1f8;
+    background: #323249;
 }
 
 .calendar-assets {
@@ -211,18 +211,26 @@ textarea {
     z-index: 99;
     
 }
-#left{
-    float: left;
-    width: 25%;
-}
+
 #middle{
     float: left;
-    width: 50%;
+    width: 66%;
+    background-color: #323249;
+    height: 100vh;
+    
 }
 
 .right{
-    float: right;
-    width: 25%;
+    float: left;
+    width: 33%;
+    background-color: #323249;
+    height: 100vh;
+    
+}
+.divcointener{
+  width: 95.7%;
+  float: right
+  ;
 }
 :root {
     font-size: 16px;
@@ -233,18 +241,9 @@ textarea {
     --bg-secondary: #141418;
     --transition-speed: 600ms;
   }
+  
 
-  body::-webkit-scrollbar {
-    width: 0.2rem;
-  }
-  
-  body::-webkit-scrollbar-track {
-    background: #1e1e24;
-  }
-  
-  body::-webkit-scrollbar-thumb {
-    background: #6649b8;
-  }
+
   
   main {
     margin-left: 5rem;
@@ -255,7 +254,7 @@ textarea {
     position: fixed;
     background-color: var(--bg-primary);
     transition: width 600ms ease;
-    overflow: scroll;
+    overflow: hidden;
   }
   
   .navbar-nav {
@@ -402,19 +401,7 @@ textarea {
     --bg-secondary: #141418;
   }
   
-  .light {
-    --text-primary: #1f1f1f;
-    --text-secondary: #000000;
-    --bg-primary: #ffffff;
-    --bg-secondary: #e4e4e4;
-  }
-  
-  .solar {
-    --text-primary: #576e75;
-    --text-secondary: #35535c;
-    --bg-primary: #fdf6e3;
-    --bg-secondary: #f5e5b8;
-  }
+
   
   .theme-icon {
     display: none;
@@ -431,3 +418,28 @@ textarea {
   .solar #solarIcon {
     display: block;
   }
+
+  #header{
+    background-color: #181820;
+    text-align: center;
+  }
+
+  #header img{
+   
+    height: 350px;
+  }
+
+  .divcointener{
+    background-color: #323249;
+  }
+  body{
+    background-color: #323249;
+  }
+ .cointainer3 img{
+  float: right;
+ }
+
+ .cointainer2{
+  float: right;
+  width: 85.1%;
+ }
